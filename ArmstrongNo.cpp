@@ -9,14 +9,11 @@ int main(){
         n=n%10;
         rev =rem*rem*rem;
         n=n/10;
-
-    };
+    }
     if(rev=temp){
-        cout<<"this is armstrong Number ";
-
+        cout<<"It is armstrong Number ";
     }
     else{
-        cout<<"this is not a Armstorng Number ";
-        
+        cout<<"It is not a Armstorng Number ";
     }
 }
